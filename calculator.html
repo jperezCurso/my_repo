@@ -4,9 +4,9 @@
 <title>Calculator</title>
 <meta charset="utf-8">
 <script type="text/javascript">
-function cube(ele) {
+function cube(elev) {
   var num = document.getElementById("n1");
-  num.value = Math.pow(num.value, ele);
+  num.value = Math.pow(num.value, elev);
 }
 function seno() {
   var num = document.getElementById("n1");
@@ -20,6 +20,7 @@ function seno() {
 Number:
 <input type="text" id="n1"><p>
 <button onclick="cube(3)"> x^3 </button>
+<button onclick="cube(4)"> x^4 </button>
 <button onclick="seno()"> Seno </button>
 </body>
 </html>
